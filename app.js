@@ -101,13 +101,6 @@ mongoose.connect('mongodb://localhost:27018/blog', {useMongoClient:true}, functi
 
 
 
-
-
-
-
-
-
-
 app.get('/', function(req, res, next) {
    //res.send('欢迎光临我的博客')
 
